@@ -9,6 +9,10 @@
     <ProjectReference Include="..\Laan.SQL.Parser\Laan.Sql.Parser.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
   <Import Project="$(SolutionDir)Build\Common.targets" />
   <Import Project="$(SolutionDir)Build\Nuget.targets" />
 
