@@ -22,6 +22,7 @@ namespace Laan.Sql.Formatter
                 { typeof( DeleteStatement ), typeof( DeleteStatementFormatter ) },
                 { typeof( InsertStatement ), typeof( InsertStatementFormatter ) },
                 { typeof( DeclareStatement ), typeof( DeclareStatementFormatter ) },
+                { typeof( SetVariableStatement ), typeof( SetVariableStatementFormatter ) },
                 { typeof( GoTerminator ), typeof( GoTerminatorFormatter ) },
                 { typeof( IfStatement ), typeof( IfStatementFormatter ) },
                 { typeof( BeginTransactionStatement ), typeof( BeginTransactionStatementFormatter ) },
